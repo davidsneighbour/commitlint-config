@@ -20,14 +20,14 @@
   "dependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
+    "@dnb-hugo/remark-config": "^2.0.0",
     "husky": "4.3.5"
   },
   "devDependencies": {
-    "@dnb-hugo/eslint-config": "github:dnb-hugo/commitlint-config",
-    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
-    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
-    "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
-    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
+    "@dnb-hugo/eslint-config": "npm:@dnb-hugo/commitlint-config@^1.1.0",
+    "@dnb-hugo/standard-version-config": "^2.0.0",
+    "@dnb-hugo/stylelint-config": "^2.0.11",
+    "@dnb-hugo/textlint-config": "^2.0.0",
     "standard-version": "9.1.0"
   },
   "scripts": {
